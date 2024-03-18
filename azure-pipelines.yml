@@ -10,10 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: PeformanceSimplified@0
-  inputs:
-    samplestring: 'demo'
-
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
