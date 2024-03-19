@@ -10,9 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: PeformanceSimplified@0
-  inputs:
-    samplestring: 'demo2'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
