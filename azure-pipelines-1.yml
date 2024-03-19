@@ -13,7 +13,7 @@ pool:
 steps:
 - task: PeformanceSimplified@1
   inputs:
-    samplestring: 'demo'
+    samplestring: 'test'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
